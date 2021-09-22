@@ -1,0 +1,93 @@
+/*
+ * Colors:
+Menu-bar: #003fa2
+Accents: #6e7ca0
+Background: #c7c9c7
+Hover?: #e4e7e4
+*/
+.menu {
+	background: #003fa2;
+}
+
+.menu a {
+	color: #e6e6e6 !important;
+}
+.menu a:hover{
+	color: white !important;
+}
+.footer {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 8vh;
+	background: #003fa2;
+}
+.footer a {
+	color: #e6e6e6 !important;
+	text-decoration:none;
+}
+
+.footer a:hover {
+	color: white !important;
+}
+
+.title {
+	text-align: center;
+}
+
+.page {
+	background-color: #c7c9c7
+}
+
+.basictext {
+	color: white;
+}
+
+.clickable:hover {
+	color: #e4e7e4
+}
+
+
+/* Advice CSS */
+.advice-container img {
+	width:35vw;
+}
+
+.advice-item {
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	margin: 0em 4em 0em 4em;
+}
+
+.advice-item .simpletext{
+	margin-left: 4em;
+}
+
+
+.advice-container {
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+.advice-item:nth-child(even) {
+	display:flex;
+	flex-direction: row-reverse;
+}
+
+.advice-item:nth-child(even) .simpletext{
+	margin-right:4em;
+}
+
+.advice-item:last-child {
+	margin-bottom:2em;
+}
+
+.advice-item:first-child {
+	margin-top:2em;
+}
