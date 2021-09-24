@@ -70,6 +70,7 @@ Hover?: #e4e7e4
 .advice-item .simpletext{
 	margin-left: 4em;
 }
+/* Building CSS */
 .building-container {
 	display: flex;
 	flex-direction:column;
@@ -94,6 +95,17 @@ Hover?: #e4e7e4
 .buildingBlock:first-child {
 	margin-top:2em;
 }
+ .bText{
+	 padding: 50px;
+	 font-size: 20pt;
+	 line-height:2;
+	 color: #6072c6;
+	 align-self: center;
+ }
+ .bImg{
+	 width:33%;
+	 height:auto;
+ }
 
 /* About us css */
 
