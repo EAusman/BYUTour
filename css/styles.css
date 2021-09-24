@@ -67,27 +67,27 @@ Hover?: #e4e7e4
 .advice-item .simpletext{
 	margin-left: 4em;
 }
-
-
-.advice-container {
+.building-container {
 	display: flex;
 	flex-direction:column;
 	flex-wrap:wrap;
 }
 
-.advice-item:nth-child(even) {
+.buildingBlock:nth-child(even) {
 	display:flex;
-	flex-direction: row-reverse;
+	flex-direction:row;
 }
-
-.advice-item:nth-child(even) .simpletext{
+.buildingBlock:nth-child(odd) {
+	display:flex;
+}
+.buildingBlock:nth-child(even) .simpletext{
 	margin-right:4em;
 }
 
-.advice-item:last-child {
+.buildingBlock:last-child {
 	margin-bottom:2em;
 }
 
-.advice-item:first-child {
+.buildingBlock:first-child {
 	margin-top:2em;
 }
