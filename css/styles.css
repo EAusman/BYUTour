@@ -55,8 +55,12 @@ Hover?: #e4e7e4
 	background-color: #f2f2f2;
 }
 
-.basictext {
-	color: white;
+.basictext{
+	color:white;
+}
+.basicText {
+	font-size: 30pt;
+	align-items: center;
 }
 
 .clickable:hover {
@@ -150,4 +154,19 @@ margin: 2em 5em 2em 5em;
 	background: #e6e6e6;
 	line-height:2;
 	padding:0.5em;
+}
+/* Index css */
+.clickable{
+width: 400px;
+height: auto;
+margin: 5px;
+}
+.picBox{
+	display: flex;
+	flex-direction:column;
+}
+.clickBoxes{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
 }
