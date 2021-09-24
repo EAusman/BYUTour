@@ -6,7 +6,8 @@ Background: #c7c9c7
 Hover?: #e4e7e4
 */
 .menu {
-	background: #003fa2;
+	background: #002E5D;
+	height: 8vh;
 }
 
 .menu a {
@@ -24,8 +25,8 @@ Hover?: #e4e7e4
 	align-items: center;
 	position: absolute;
 	width: 100%;
-	height: 8vh;
-	background: #003fa2;
+	height: 12vh;
+	background: #002E5D;
 }
 .footer a {
 	color: #e6e6e6 !important;
@@ -38,11 +39,18 @@ Hover?: #e4e7e4
 
 .title {
 	text-align: center;
-	margin-top: 1em
+	margin-top: 0.5em;
+	font-size:50pt;
+}
+
+.subtitle {
+	text-align: center;
+	float:center;
+	font-size:30pt;
 }
 
 .page, body {
-	background-color: #c7c9c7
+	background-color: #f2f2f2;
 }
 
 .basictext {
@@ -118,4 +126,21 @@ margin: 2em 5em 2em 5em;
 
 .profiles {
 
+}
+
+/* Advice css */
+
+.quote {
+	margin: 1em 2em 2em 1em;
+	width: 10em;
+	text-align:center;
+	border-radius: 1em;
+	font-size: 20pt;
+	font-weight:bold;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background: #e6e6e6;
+	line-height:2;
+	padding:0.5em;
 }
