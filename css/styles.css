@@ -46,6 +46,7 @@ Hover?: #e4e7e4
 .subtitle {
 	text-align: center;
 	font-size:30pt;
+	color:black;
 }
 .subsubtitle {
 	text-align: center;
@@ -118,6 +119,7 @@ Hover?: #e4e7e4
 .profile {
 display: flex;
 flex-direction: row;
+align-items:center;
 justify-content:space-around;
 margin: 2em 5em 2em 5em;
 }
@@ -180,6 +182,9 @@ margin: 5px;
 }
 
 @media only screen and (max-width: 600px) {
+	.bText{
+		font-size: 4vw;
+	}
 	.building-container{
 		justify-content:center;
 		align-items:center;
@@ -199,9 +204,28 @@ margin: 5px;
 		width:75%;
 	}
 	.clickBoxes{
-		flex-direction:column;
+		flex-direction: column;
 	}
 	.quote{
-		width: 13em;
+		font-size: 13pt;
+		width:10em;
+	}
+	.subsubtitle{
+		padding: 2px;
+	}
+	.profile{
+		flex-direction: column;
+		line-height: 1;
+	}
+	.profile > div {
+
+		width: 100%;
+	}
+	.profile img{
+		width:100%;
+		height: auto;
+	}
+	.profile .simpletext {
+		font-size: 15pt;
 	}
 }
