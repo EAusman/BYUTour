@@ -7,6 +7,7 @@ Hover?: #e4e7e4
 */
 .menu {
 	background: #002E5D;
+	min-height:8vh;
 }
 
 .menu a {
@@ -68,22 +69,6 @@ Hover?: #e4e7e4
 }
 
 
-/* Advice CSS */
-.advice-container img {
-	width:35vw;
-}
-
-.advice-item {
-	display:flex;
-	flex-direction:row;
-	align-items:center;
-	margin: 0em 4em 0em 4em;
-}
-
-
-.advice-item .simpletext{
-	margin-left: 4em;
-}
 /* Building CSS */
 .building-container {
 	display: flex;
@@ -96,9 +81,11 @@ Hover?: #e4e7e4
 	flex-direction:row;
 	margin: 1em 0 1em 0;
 	background: #e6e6e6;
+	align-items:center;
 }
 
 .buildingBlock:nth-child(even){
+	flex-direction: row-reverse;
 	border-radius: 20em 0 0 20em;
 	margin-left: 1em;
 }
@@ -116,13 +103,13 @@ Hover?: #e4e7e4
 }
  .bText{
 	 padding: 50px;
-	 font-size: 20pt;
+	 font-size: 1.8vw;
 	 line-height:2;
 	 align-self: center;
 	 text-align:center;
  }
  .bImg{
-	 width:33%;
+	 width:33vw;
 	 height:auto;
  }
 
@@ -135,6 +122,19 @@ justify-content:space-around;
 margin: 2em 5em 2em 5em;
 }
 
+.profile > div {
+	width:50%;
+	margin-left:1em;
+}
+.profile p {
+	line-height:2;
+	font-size:2vw;
+
+}
+.profile h2 {
+	text-align:center;
+}
+
 .profiles {
 
 }
@@ -142,7 +142,7 @@ margin: 2em 5em 2em 5em;
 /* Advice css */
 
 .quote {
-	margin: 1em 2em 2em 1em;
+	margin: 1vw 2vw 2vw 1vw;
 	width: 10em;
 	text-align:center;
 	border-radius: 1em;
@@ -169,4 +169,26 @@ margin: 5px;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.building-container{
+		justify-content:center;
+		align-items:center;
+	}
+	.buildingBlock {
+		justify-content:center;
+		flex-direction:column;
+		width: 90%;
+		background-color: #f2f2f2;
+	}
+	.buildingBlock:nth-child(even){
+		justify-content:center;
+		margin: 0 0 0 0;
+		flex-direction:column;
+	}
+	.bImg {
+		width:75%;
+	}
 }
